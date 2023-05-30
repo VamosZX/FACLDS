@@ -11,8 +11,6 @@
 
 ### 1. Prepare Dataset 
 
-#### Feature
-
 We use ResNet3D to extract video features.
 
 The extracted features can be divided into data using ```/utils/noniid_split.py ```
@@ -22,7 +20,6 @@ The extracted features can be divided into data using ```/utils/noniid_split.py 
 
 ```
 python main.py --FL_platform MLP-FACLDS --net_name MLP --dataset youtube --E_epoch 1 --max_communication_rounds 300 --split_type c_5_a_5 --save_model_flag
-
 ```
 
 - All the checkpoints, results, log files will be saved to the ```--output_dir``` folder, with the final performance saved at log_file.txt 
