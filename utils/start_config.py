@@ -3,7 +3,7 @@ import random
 import numpy as np
 
 import torch
-from models.modeling import MLP
+from models.model import MLP
 
 
 def print_options(args, model):
