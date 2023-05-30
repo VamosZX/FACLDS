@@ -1,11 +1,11 @@
-# Vision Transformer in Federated Learning 
-* **Pytorch implementation for paper:** ["Rethinking Architecture Design for Tackling Data Heterogeneity in Federated Learning"](https://arxiv.org/abs/2106.06047)
-* Note that we simulate either CWT or FedAVG in one local machine for research usage, donot involve real communication between different clients. 
+## Federated Affective Computing with Label Distribution Skew 
+* **Pytorch implementation for paper:** Knowledge-guided Label Distribution Calibration for Federated Affective Computing
+
 
 ## Usage
 ### 0. Installation
 
-- Run `cd ViT-FL-main`
+- Run `cd FACLDS/`
 - Install the libraries listed in requirements.txt 
 
 
