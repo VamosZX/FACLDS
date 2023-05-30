@@ -26,11 +26,6 @@ python main.py --FL_platform MLP-FACLDS --net_name MLP --dataset youtube --E_epo
 
 
 
-## Acknowledgments
-- The implementation of our code is based on [Vision Transformer in Federated Learning](https://github.com/Liangqiong/ViT-FL-main)
-
-
-
 
 
 
